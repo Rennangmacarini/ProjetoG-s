@@ -1,0 +1,84 @@
+.text {
+    margin-top: 8rem;
+}
+
+.text h1 {
+    font-size: 3.5rem;
+    margin-left: 3rem;
+}
+
+.text h1 span {
+    color: var(--color-span);
+}
+
+
+.carousel {
+    margin: auto;
+    width: 1100px;
+    margin-top: 5rem;
+}
+
+.carousel img{
+    width: 300px;
+}
+
+.carousel .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.carousel .card .img {
+    margin-top: 8rem;
+}
+
+.carousel .card .paragraph {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.carousel .card .paragraph span {
+    color: var(--color-span);
+}
+
+.banner {
+    margin: 8rem 0rem;
+    text-align: center;
+    background-color: var(--bg-banner);
+}
+.banner img {
+    width: 600px;
+}
+
+
+@media(max-width: 1700px){
+    .text h1 {
+        font-size: 2.5rem;
+    }
+
+    .carousel {
+        margin: auto;
+        width: 900px;
+        margin-top: 3rem;
+    }
+    
+    .carousel img{
+        width: 230px;
+    }
+    
+    .carousel .card .img {
+        margin-top: 4rem;
+    }
+    
+    .carousel .card .paragraph {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .banner img {
+        width: 500px;
+    }
+    
+
+}

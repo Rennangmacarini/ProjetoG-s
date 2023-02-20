@@ -1,0 +1,142 @@
+.container img {
+    width: 100%;
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    margin: 15rem 10rem;
+    text-align: center;
+
+    color: var(--color);
+}
+
+.content h1 {
+    font-size: 5rem;
+    font-weight: bolder;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0, 0.5);
+}
+
+.content p {
+    font-size: 1.8rem;
+}
+
+.content .text p:first-child{
+    margin: 2rem 0rem;
+}
+
+.content .text p + p{
+    color: var(--color-p);
+}
+
+.content .text p strong {
+    color: var(--color) ;
+}
+
+.content .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+
+    margin: 2rem 0rem;
+}
+
+.content .img img {
+    width: 250px;
+    border-radius: 20px;
+}
+
+
+.faixa img {
+    margin-top: -0.5rem;
+    width: 100%;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+    margin-top: -7rem;
+}
+
+.banner img {
+    width: 350px;
+}
+
+.information {
+    margin-top: 3rem;
+    margin-left: 1.5rem;
+}
+
+.information h2 {
+    font-size: 4rem;
+    margin-left: 2.5rem;
+}
+
+.information h2 span {
+    color: var(--color-span);
+}
+
+.information p {
+    font-size: 1.5rem;
+    margin-left: 2.5rem;
+}
+
+
+.information .imagem {
+    display: flex;
+    gap: 1.5rem;
+    margin: 2rem
+}
+
+.information .imagem img {
+    width: 250px;
+    border-radius: 18px;
+}
+
+
+@media(max-width: 1700px){
+    .content {
+        margin: 10rem 8rem;
+        text-align: center;
+    }
+
+    .content h1 {
+        font-size: 3.5rem;
+        font-weight: bolder;
+        text-shadow: 5px 5px 5px rgb(0, 0, 0, 0.5);
+    }
+    
+    .content p {
+        font-size: 1.3rem;
+    }
+
+    .content .img img {
+        width: 200px;
+    }
+
+    .banner {
+        margin-top: -6rem;
+    }
+    .banner img {
+        width: 300px;
+    }
+
+    .information h2 {
+        font-size: 3rem;
+    }
+    
+    .information p {
+        font-size: 1.2rem;
+    }
+    
+    .information .imagem img {
+        width: 200px;
+    }
+    
+}

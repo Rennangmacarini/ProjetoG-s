@@ -1,0 +1,110 @@
+.global h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 5rem 0rem;
+}
+
+
+.global h1 span {
+    color: var(--color-span);
+}
+
+.global img {
+    width: 70px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.card {
+    border: 3px solid rgb(0, 0, 0, 0.3);
+    background-color: var(--bg-card);
+    padding: 1rem;
+    border-radius: 18px;
+    box-shadow: 3px 3px 3px 3px rgb(0, 0, 0, 0.5);
+}
+
+.card h2 {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.card h2 span {
+    color: var(--color-span);
+}
+
+
+.globalText{
+    margin: 10rem 0rem;
+    display: flex;
+    background-color: var(--bg-banner);
+}
+
+.banner .imagens {
+    width: 300px;
+    margin-top: -8rem;
+}
+
+.banner {
+   display: flex;
+   gap: 5rem;
+   justify-content: center;
+   align-items: center;
+
+   margin: auto;
+   padding: 3rem 0rem;
+}
+
+.text h1 {
+    font-size: 3rem;
+    color: var(--color);
+}
+
+.text h1 strong {
+    color: var(--color-strong);
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 1rem 0rem;
+}
+
+.icon img {
+    border-radius: 18px;
+    width: 250px;
+}
+
+@media(max-width: 1700px){
+    .global h1 {
+        font-size: 3rem;
+    }
+
+    .global img {
+        width: 50px;
+    }
+
+    .card h2 {
+        font-size: 1rem;
+        line-height: 1.8rem;
+    }
+
+    .banner .imagens {
+        width: 250px;
+        margin-top: -8rem;
+    }
+
+    .text h1 {
+        font-size: 2rem;
+    }
+
+    .icon img {
+        width: 200px;
+    }
+}

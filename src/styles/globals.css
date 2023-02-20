@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-p:rgb(208, 208, 208);
+  --color-card:rgb(208, 208, 208);
+  --color: #fff;
+  --color-span:#965df3;
+  --color-strong:#00ffcb;
+
+  
+  --bg-banner:#7733f1;
+
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
