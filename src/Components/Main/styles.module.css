@@ -201,6 +201,9 @@
 
 
 @media(max-width: 650px) {
+    .globalText {
+        margin: 5rem 0rem;
+    }
 
     .container {
         flex-direction: column;
@@ -210,7 +213,11 @@
     }
 
     .container .card {
-        width: 200px;
+        width: 400px;
+    }
+
+    .container h2 {
+        font-size: 1rem;
     }
 
     .banner {
@@ -223,11 +230,13 @@
 @media(max-width: 470px) {
 
     .global h1 {
+        margin: auto;
+        width: 300px;
         font-size: 1.2rem;
     }
 
     .container .card {
-        width: 200px;
+        width: 300px;
     }
 
     .banner {
@@ -235,7 +244,7 @@
     }
 
     .banner .imagens {
-        width: 100px;
+        width: 120px;
         margin-top: -6rem;
     }
 
@@ -252,12 +261,4 @@
         width: 80px;
     }
 
-}
-
-
-@media(max-width: 400px) {
-
-    .global h1 {
-        font-size: 1rem;
-    }
 }
