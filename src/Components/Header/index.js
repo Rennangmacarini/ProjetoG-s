@@ -31,7 +31,7 @@ export function Header() {
 
             <div className={styles.information}>
                 <h2><span>Compre</span> pelo nosso app</h2>
-                <p>No aplicativo você encontra as melhores ofertas.<span>É rápido, facil e seguro.</span> </p>
+                <p>No aplicativo você encontra as melhores ofertas.<span> É rápido, facil e seguro.</span> </p>
                 <div className={styles.imagem}>
                     <a href=''><img src='./img/playRoxo.png' /></a>
                     <a href=''><img src='./img/storeRoxo.png' /></a>

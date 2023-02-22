@@ -27,11 +27,11 @@
 }
 
 .content h3 {
-  margin: 2rem 0rem 0.5rem;  
-  text-align: center;
+    margin: 2rem 0rem 0.5rem;
+    text-align: center;
 }
 
-.content .h2{
+.content .h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -53,4 +53,111 @@
     text-align: center;
     font-weight: 100;
     font-size: 1.3rem;
+}
+
+@media(max-width: 1200px) {
+    .content {
+        width: 580px;
+    }
+
+    .content h1 span {
+        font-size: 1.5rem;
+
+    }
+
+    .content h2 {
+        font-size: 1.2rem;
+    }
+
+    .content span {
+        font-size: 1.5rem;
+    }
+
+    .content .h3 {
+        width: 150px;
+    }
+
+    .content .city {
+        font-size: 1rem;
+    }
+
+    .content .city h4 {
+        line-height: 2rem;
+        font-size: 1rem;
+    }
+
+    .content h5 {
+        font-size: 0.9rem;
+    }
+}
+
+
+@media(max-width: 950px) {
+    .content {
+        width: 400px;
+    }
+
+    .content h1 {
+        font-size: 1.4rem;
+    }
+
+    .content h1 span {
+        font-size: 1rem;
+
+    }
+}
+
+
+@media(max-width: 650px) {
+    .content {
+        width: 350px;
+    }
+
+    .content h1 {
+        font-size: 1.2rem;
+    }
+
+    .content h1 span {
+        font-size: 0.8rem;
+    }
+
+    .content h2 {
+        font-size: 1rem;
+    }
+
+    .content .h3 {
+        width: 100px;
+    }
+
+    .content h3 {
+        font-size: 1rem;
+    }
+
+    .content .city h4 {
+        line-height: 1.5rem;
+        font-size: 0.8rem;
+    }
+
+    .content h5 {
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-width: 470px) {
+    .content {
+        width: 310px;
+    }
+
+    .content h1 {
+        font-size: 1rem;
+    }
+
+    .content h1 span {
+        font-size: 0.8rem;
+    }
+
+    .content h2 {
+        font-size: 0.9rem;
+    }
+
 }

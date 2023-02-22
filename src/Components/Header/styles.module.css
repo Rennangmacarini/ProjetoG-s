@@ -23,16 +23,16 @@
     font-size: 1.8rem;
 }
 
-.content .text p:first-child{
+.content .text p:first-child {
     margin: 2rem 0rem;
 }
 
-.content .text p + p{
+.content .text p+p {
     color: var(--color-p);
 }
 
 .content .text p strong {
-    color: var(--color) ;
+    color: var(--color);
 }
 
 .content .img {
@@ -100,7 +100,7 @@
 }
 
 
-@media(max-width: 1700px){
+@media(max-width: 1700px) {
     .content {
         margin: 10rem 8rem;
         text-align: center;
@@ -108,10 +108,8 @@
 
     .content h1 {
         font-size: 3.5rem;
-        font-weight: bolder;
-        text-shadow: 5px 5px 5px rgb(0, 0, 0, 0.5);
     }
-    
+
     .content p {
         font-size: 1.3rem;
     }
@@ -123,6 +121,7 @@
     .banner {
         margin-top: -6rem;
     }
+
     .banner img {
         width: 300px;
     }
@@ -130,13 +129,265 @@
     .information h2 {
         font-size: 3rem;
     }
-    
+
     .information p {
         font-size: 1.2rem;
     }
-    
+
     .information .imagem img {
         width: 200px;
     }
-    
+
+}
+
+
+@media(max-width: 1200px) {
+    .content {
+        margin: 8rem 5rem;
+        text-align: center;
+    }
+
+    .content h1 {
+        font-size: 3rem;
+    }
+
+    .content p {
+        font-size: 1.1rem;
+    }
+
+    .content .img img {
+        width: 150px;
+    }
+
+    .banner {
+        margin-top: -4.5rem;
+    }
+
+    .banner img {
+        width: 250px;
+    }
+
+    .information h2 {
+        font-size: 2.5rem;
+    }
+
+    .information p {
+        font-size: 1.1rem;
+    }
+
+    .information .imagem img {
+        width: 150px;
+    }
+
+}
+
+
+@media(max-width: 950px) {
+    .content {
+        margin: 5rem 3rem;
+    }
+
+    .content h1 {
+        font-size: 2.5rem;
+    }
+
+    .content p {
+        font-size: 1rem;
+    }
+
+    .content .img img {
+        width: 120px;
+    }
+
+    .banner {
+        margin-top: -3.5rem;
+    }
+
+    .banner img {
+        width: 200px;
+    }
+
+    .information h2 {
+        font-size: 2rem;
+    }
+
+    .information p {
+        font-size: 1rem;
+    }
+
+    .information .imagem img {
+        width: 120px;
+    }
+
+}
+
+
+@media(max-width: 800px) {
+    .content {
+        margin: 3rem 2rem;
+    }
+
+    .content h1 {
+        font-size: 2rem;
+    }
+
+    .content p {
+        font-size: 0.8rem;
+    }
+
+    .content .img {
+        gap: 1rem;
+    }
+
+    .content .img img {
+        width: 100px;
+    }
+
+    .banner {
+        margin-top: -3rem;
+    }
+
+    .banner img {
+        width: 150px;
+    }
+
+    .information h2 {
+        font-size: 1.5rem;
+    }
+
+    .information p {
+        font-size: 1rem;
+    }
+
+    .information .imagem {
+        gap: 1rem;
+    }
+
+    .information .imagem img {
+        width: 100px;
+    }
+
+}
+
+@media(max-width: 650px) {
+    .content {
+        margin: 2rem 1rem;
+    }
+
+    .content h1 {
+        font-size: 1.5rem;
+    }
+
+    .banner {
+        gap: 1rem;
+        margin-top: -2.5rem;
+    }
+
+    .information h2 {
+        font-size: 1.2rem;
+    }
+
+    .information p {
+        font-size: 0.8rem;
+    }
+}
+
+
+
+@media(max-width: 550px) {
+    .content {
+        margin: 1rem 0.5rem;
+    }
+
+    .content h1 {
+        font-size: 1.2rem;
+    }
+
+    .content p {
+        font-size: 0.7rem;
+    }
+
+    .content .text p:first-child {
+        margin: 1rem 0rem;
+    }
+
+
+    .banner {
+        margin-top: -2rem;
+    }
+
+    .banner img {
+        width: 100px;
+    }
+
+    .information h2 {
+        font-size: 1rem;
+    }
+
+    .information p {
+        width: 350px;
+    }
+}
+
+
+@media(max-width: 470px) {
+    .content {
+        margin: 0.5rem 0.3rem;
+    }
+
+    .content h1 {
+        font-size: 1rem;
+    }
+
+    .content .text p:first-child {
+        margin: 0.5rem 0rem;
+    }
+
+
+    .banner {
+        margin-top: -1.5rem;
+    }
+
+    .banner img {
+        width: 100px;
+    }
+
+    .information h2 {
+        font-size: 1rem;
+    }
+
+    .information p {
+        width: 300px;
+    }
+}
+
+
+@media(max-width: 400px) {
+    .content {
+        margin: 0.4rem 0.2rem;
+    }
+
+    .content h1 {
+        font-size: 1rem;
+    }
+
+    .content .img {
+        gap: 0.5rem;
+    }
+
+    .banner {
+        margin-top: -1.3rem;
+    }
+
+    .banner img {
+        width: 90px;
+    }
+
+    .information p {
+        width: 220px;
+    }
+
+    .information .imagem {
+        gap: 0.5rem;
+    }
 }

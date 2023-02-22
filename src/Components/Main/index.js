@@ -57,8 +57,8 @@ export function Main() {
                         <h1>Peça agora seu</h1>
                         <h1> <strong>GÁS DE COZINHA!</strong> </h1>
                         <div className={styles.icon}>
-                            <img src='./img/play.png'></img>
-                            <img src='./img/store.png'></img>
+                          <a href=''><img src='./img/play.png'></img></a>  
+                          <a href=''><img src='./img/store.png'></img></a>  
                         </div>
                     </div>
                 </div>

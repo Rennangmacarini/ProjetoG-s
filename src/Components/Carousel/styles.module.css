@@ -18,11 +18,11 @@
     margin-top: 5rem;
 }
 
-.carousel img{
+.carousel img {
     width: 300px;
 }
 
-.carousel .card{
+.carousel .card {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,12 +47,13 @@
     text-align: center;
     background-color: var(--bg-banner);
 }
+
 .banner img {
     width: 600px;
 }
 
 
-@media(max-width: 1700px){
+@media(max-width: 1700px) {
     .text h1 {
         font-size: 2.5rem;
     }
@@ -62,15 +63,15 @@
         width: 900px;
         margin-top: 3rem;
     }
-    
-    .carousel img{
+
+    .carousel img {
         width: 230px;
     }
-    
+
     .carousel .card .img {
         margin-top: 4rem;
     }
-    
+
     .carousel .card .paragraph {
         text-align: center;
         font-size: 1rem;
@@ -79,6 +80,127 @@
     .banner img {
         width: 500px;
     }
-    
+}
 
+@media(max-width: 1300px) {
+    .text h1 {
+        font-size: 2rem;
+    }
+
+    .carousel {
+        width: 800px;
+    }
+
+    .carousel img {
+        width: 200px;
+    }
+
+    .carousel .card .img {
+        margin-top: 3rem;
+    }
+
+    .carousel .card .paragraph {
+        font-size: 0.8rem;
+    }
+
+    .banner img {
+        width: 400px;
+    }
+
+}
+
+
+@media(max-width: 950px) {
+    .text h1 {
+        font-size: 1.8rem;
+    }
+
+    .carousel {
+        width: 600px;
+    }
+
+    .carousel img {
+        width: 150px;
+    }
+
+    .carousel .card .img {
+        margin-top: 2rem;
+    }
+
+    .carousel .card .paragraph {
+        font-size: 0.7rem;
+    }
+
+    .banner img {
+        width: 350px;
+    }
+
+}
+
+
+@media(max-width: 800px) {
+    .text h1 {
+        font-size: 1.5rem;
+    }
+
+    .carousel {
+        width: 550px;
+    }
+
+}
+
+
+@media(max-width: 650px) {
+    .text h1 {
+        font-size: 1.2rem;
+    }
+
+    .carousel {
+        width: 500px;
+    }
+}
+
+@media(max-width: 550px) {
+    .text h1 {
+        font-size: 1rem;
+    }
+
+    .carousel {
+        width: 450px;
+    }
+
+    .carousel img {
+        width: 120px;
+    }
+}
+
+@media(max-width: 470px) {
+
+    .carousel {
+        width: 350px;
+    }
+
+    .carousel img {
+        width: 100px;
+    }
+
+    .banner img {
+        width: 250px;
+    }
+}
+
+
+@media(max-width: 400px) {
+
+    .carousel {
+        width: 320px;
+    }
+
+    .carousel img {
+        width: 90px;
+    }
+
+    .banner img {
+        width: 200px;
+    }
 }

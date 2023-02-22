@@ -17,6 +17,7 @@
     display: flex;
     justify-content: center;
     gap: 1.5rem;
+    padding: 0rem 1rem;
 }
 
 .card {
@@ -38,7 +39,7 @@
 }
 
 
-.globalText{
+.globalText {
     margin: 10rem 0rem;
     display: flex;
     background-color: var(--bg-banner);
@@ -50,13 +51,13 @@
 }
 
 .banner {
-   display: flex;
-   gap: 5rem;
-   justify-content: center;
-   align-items: center;
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
 
-   margin: auto;
-   padding: 3rem 0rem;
+    margin: auto;
+    padding: 3rem 0rem;
 }
 
 .text h1 {
@@ -68,7 +69,7 @@
     color: var(--color-strong);
 }
 
-.icon{
+.icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,7 +82,7 @@
     width: 250px;
 }
 
-@media(max-width: 1700px){
+@media(max-width: 1700px) {
     .global h1 {
         font-size: 3rem;
     }
@@ -106,5 +107,157 @@
 
     .icon img {
         width: 200px;
+    }
+}
+
+@media(max-width: 1300px) {
+    .global h1 {
+        font-size: 2.5rem;
+    }
+
+    .global img {
+        width: 40px;
+    }
+
+
+    .card h2 {
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+    }
+
+    .banner .imagens {
+        width: 200px;
+        margin-top: -8rem;
+    }
+
+    .text h1 {
+        font-size: 1.5rem;
+    }
+
+    .icon img {
+        width: 150px;
+    }
+}
+
+
+
+@media(max-width: 950px) {
+    .global h1 {
+        font-size: 2rem;
+    }
+
+    .global img {
+        width: 30px;
+    }
+
+    .container {
+        padding: 0rem 1.5rem;
+    }
+
+    .card h2 {
+        font-size: 0.7rem;
+        line-height: 1.2rem;
+    }
+
+    .banner .imagens {
+        width: 150px;
+        margin-top: -6rem;
+    }
+
+    .text h1 {
+        font-size: 1rem;
+    }
+
+    .icon {
+        gap: 1rem;
+        margin: 0.5rem 0rem;
+    }
+
+    .icon img {
+        width: 100px;
+    }
+}
+
+
+@media(max-width: 800px) {
+    .global h1 {
+        font-size: 1.5rem;
+    }
+
+    .global img {
+        width: 30px;
+    }
+
+    .container {
+        padding: 0rem 1rem;
+    }
+
+    .card h2 {
+        font-size: 0.7rem;
+        line-height: 1rem;
+    }
+
+}
+
+
+@media(max-width: 650px) {
+
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0rem 0rem;
+    }
+
+    .container .card {
+        width: 200px;
+    }
+
+    .banner {
+        gap: 2rem;
+    }
+
+}
+
+
+@media(max-width: 470px) {
+
+    .global h1 {
+        font-size: 1.2rem;
+    }
+
+    .container .card {
+        width: 200px;
+    }
+
+    .banner {
+        gap: 1rem;
+    }
+
+    .banner .imagens {
+        width: 100px;
+        margin-top: -6rem;
+    }
+
+    .text h1 {
+        font-size: 0.8srem;
+    }
+
+    .icon {
+        gap: 1rem;
+        margin: 0rem 0rem;
+    }
+
+    .icon img {
+        width: 80px;
+    }
+
+}
+
+
+@media(max-width: 400px) {
+
+    .global h1 {
+        font-size: 1rem;
     }
 }
