@@ -29,9 +29,6 @@
     gap: 2rem;
 }
 
-.carousel .card .img {
-    margin-top: 8rem;
-}
 
 .carousel .card .paragraph {
     text-align: center;
@@ -68,10 +65,6 @@
         width: 230px;
     }
 
-    .carousel .card .img {
-        margin-top: 4rem;
-    }
-
     .carousel .card .paragraph {
         text-align: center;
         font-size: 1rem;
@@ -93,10 +86,6 @@
 
     .carousel img {
         width: 200px;
-    }
-
-    .carousel .card .img {
-        margin-top: 3rem;
     }
 
     .carousel .card .paragraph {
@@ -123,10 +112,6 @@
         width: 150px;
     }
 
-    .carousel .card .img {
-        margin-top: 2rem;
-    }
-
     .carousel .card .paragraph {
         font-size: 0.7rem;
     }
@@ -141,6 +126,8 @@
 @media(max-width: 800px) {
     .text h1 {
         font-size: 1.5rem;
+            margin-left: 0rem;
+            text-align: center;
     }
 
     .carousel {

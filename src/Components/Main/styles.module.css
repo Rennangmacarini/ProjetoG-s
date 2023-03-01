@@ -206,24 +206,43 @@
     }
 
     .container {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        display: grid;
+        grid-template-columns: 250px 250px;
+        gap: 3rem;
         padding: 0rem 0rem;
     }
 
     .container .card {
-        width: 400px;
+        width: 250px;
+        height: 200px;
+    }
+
+    .container h2:first-child {
+        font-size: 1rem;
+        margin-bottom: 1rem;
     }
 
     .container h2 {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     .banner {
         gap: 2rem;
     }
 
+}
+
+@media(max-width: 600px){
+    .container {
+        grid-template-columns: 210px 210px;
+        gap: 2rem;
+        padding: 0rem 0rem;
+    }
+
+    .container .card {
+        width: 210px;
+        height: 220px;
+    }
 }
 
 
@@ -235,8 +254,22 @@
         font-size: 1.2rem;
     }
 
+    .container {
+        grid-template-columns: 180px 180px;
+        padding: 0rem 0rem;
+    }
+
     .container .card {
-        width: 300px;
+        width: 180px;
+        height: 230px;
+    }
+
+    .container h2:first-child {
+        font-size: 0.9rem;
+    }
+
+    .container h2 {
+        font-size: 0.7rem;
     }
 
     .banner {
@@ -249,7 +282,7 @@
     }
 
     .text h1 {
-        font-size: 0.8srem;
+        font-size: 0.8rem;
     }
 
     .icon {
@@ -259,6 +292,33 @@
 
     .icon img {
         width: 80px;
+    }
+
+}
+
+
+@media(max-width: 420px) {
+
+    .container {
+        grid-template-columns: 150px 150px;
+        padding: 0rem 0rem;
+    }
+
+    .container .card {
+        width: 150px;
+        height: 235px;
+    }
+
+    .container h2:first-child {
+        font-size: 0.9rem;
+    }
+
+    .container h2 {
+        font-size: 0.6rem;
+    }
+
+    .banner {
+        gap: 1rem;
     }
 
 }

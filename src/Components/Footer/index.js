@@ -7,8 +7,8 @@ export function Footer() {
                 <div>
                     <img src='./img/logoverde.png'></img>
                     <div className={styles.contentCard}>
-                        <a href=''><img src='./img/insta.png'></img></a>
-                        <a href=''><img src='./img/face.png'></img></a>
+                        <a href='https://www.instagram.com/gasssapp/' target='blank'><img src='./img/insta.png'></img></a>
+                        <a href='https://pt-br.facebook.com/gasssapp' target='blank'><img src='./img/face.png'></img></a>
                         <a href=''><img src='./img/playvideo.png'></img></a>
                     </div>
                 </div>

@@ -2,6 +2,10 @@
     width: 100%;
 }
 
+.container .backgroundOpen {
+    display: none;
+}
+
 .content {
     position: absolute;
     top: 0;
@@ -269,125 +273,223 @@
 
 }
 
-@media(max-width: 650px) {
+@media(max-width: 700px) {
     .content {
-        margin: 2rem 1rem;
+        display: none;
     }
 
-    .content h1 {
+    .container .close {
+        display: none;
+    }
+
+    .container .backgroundOpen {
+        width: 100%;
+        background-color: var(--color-span);
+        padding: 3rem 0rem;
+        text-align: center;
+        display: block;
+
+    }
+
+    .container .backgroundOpen .cardOpen {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .container .backgroundOpen .cardOpen .open {
+        width: 250px;
+    }
+
+    .container .backgroundOpen .img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .container .backgroundOpen .img img {
+        width: 150px;
+        border-radius: 8px;
+        margin-top: 1rem;
+    }
+
+    .container .backgroundOpen .cardOpen h1 {
+        color: var(--color);
+
+        font-weight: bolder;
+        font-size: 2.5rem;
+        text-shadow: 5px 5px 5px rgb(0, 0, 0, 0.5);
+    }
+
+    .backgroundOpen .text p:first-child {
+        margin: 1.5rem 0rem;
+    }
+
+    .backgroundOpen .text p+p {
+        color: var(--color-p);
+    }
+
+    .backgroundOpen .text p strong {
+        color: var(--color);
+    }
+
+    .faixa img {
+        margin-top: -0.1rem;
+    }
+
+    .information {
+        margin-top: 3rem;
+        text-align: center;
+        margin-left: 0rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 1rem;
+    }
+    
+    .information h2 {
+        font-size: 2rem;
+        margin-left: 0rem;
+    }
+
+    
+    .information p {
+        margin-top: 1rem;
+        margin-left: 0rem;
+    }
+
+    .information .imagem img {
+        width: 150px;
+        border-radius: 8px;
+    }
+
+}
+
+
+@media(max-width: 600px) {
+    .container .backgroundOpen .cardOpen {
+        padding: 1rem;
+        gap: 1.5rem;
+    }
+
+    .container .backgroundOpen .cardOpen .open {
+        width: 200px;
+    }
+
+    .container .backgroundOpen .img {
+        gap: 2rem;
+    }
+
+    .container .backgroundOpen .cardOpen h1 {
+        font-size: 2rem;
+    }
+
+    .information h2 {
+        font-size: 1.5rem;
+    }
+     
+    .faixa .banner img {
+        width: 120px;
+        margin-top: 0.4rem;
+    }
+
+    .information p {
+        margin-top: 0.9rem;
+    }
+
+    .information .imagem img {
+        width: 150px;
+        border-radius: 8px;
+    }
+}
+
+
+
+@media(max-width: 500px) {
+    .container .backgroundOpen .cardOpen {
+        padding: 0.5rem;
+        gap: 1rem;
+    }
+
+    .container .backgroundOpen .cardOpen .open {
+        width: 180px;
+    }
+
+    .container .backgroundOpen .img {
+        gap: 1.5rem;
+    }
+
+    .container .backgroundOpen .img img {
+        width: 120px;
+    }
+
+    .container .backgroundOpen .cardOpen h1 {
         font-size: 1.5rem;
     }
 
-    .banner {
-        gap: 1rem;
-        margin-top: -2.5rem;
-    }
-
-    .information h2 {
-        font-size: 1.2rem;
-    }
-
-    .information p {
+    .container .text p {
         font-size: 0.8rem;
     }
-}
-
-
-
-@media(max-width: 550px) {
-    .content {
-        margin: 1rem 0.5rem;
-    }
-
-    .content h1 {
-        font-size: 1.2rem;
-    }
-
-    .content p {
-        font-size: 0.7rem;
-    }
-
-    .content .text p:first-child {
-        margin: 1rem 0rem;
-    }
-
-
-    .banner {
-        margin-top: -2rem;
-    }
-
-    .banner img {
-        width: 100px;
-    }
 
     .information h2 {
-        font-size: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .faixa .banner {
+        gap: 1rem;
+    }
+     
+    .faixa .banner img {
+        width: 100px;
+        margin-top: 0.7rem;
     }
 
     .information p {
-        width: 350px;
-    }
-}
-
-
-@media(max-width: 470px) {
-    .content {
-        margin: 0.5rem 0.3rem;
+        margin-top: 0.9rem;
     }
 
-    .content h1 {
-        font-size: 1rem;
-    }
-
-    .content .text p:first-child {
-        margin: 0.5rem 0rem;
-    }
-
-
-    .banner {
-        margin-top: -1.5rem;
-    }
-
-    .banner img {
-        width: 100px;
-    }
-
-    .information h2 {
-        font-size: 1rem;
-    }
-
-    .information p {
-        width: 300px;
+    .information .imagem img {
+        width: 150px;
     }
 }
 
 
 @media(max-width: 400px) {
-    .content {
-        margin: 0.4rem 0.2rem;
+    .container .backgroundOpen .cardOpen {
+        padding: 0.5rem;
+        gap: 0rem;
     }
 
-    .content h1 {
-        font-size: 1rem;
+    .container .backgroundOpen .cardOpen .open {
+        width: 150px;
     }
 
-    .content .img {
-        gap: 0.5rem;
+    .container .backgroundOpen .img {
+        gap: 1.5rem;
     }
 
-    .banner {
-        margin-top: -1.3rem;
+    .container .backgroundOpen .cardOpen h1 {
+        font-size: 1.3rem;
     }
 
-    .banner img {
+    .container .text p {
+        font-size: 0.8rem;
+    }
+
+    .information h2 {
+        font-size: 1.3rem;
+    }
+
+    .faixa .banner {
+        gap: 1rem;
+    }
+     
+    .faixa .banner img {
         width: 90px;
+        margin-top: 1.1rem;
     }
 
-    .information p {
-        width: 220px;
-    }
-
-    .information .imagem {
-        gap: 0.5rem;
-    }
 }

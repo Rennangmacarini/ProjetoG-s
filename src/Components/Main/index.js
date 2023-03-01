@@ -43,8 +43,7 @@ export function Main() {
                         <div>
                             <h2><span>Entrega Grátis</span></h2>
                             <h2>Com o app Gass você recebe</h2>
-                            <h2>seu gás em casa e sem pagar</h2>
-                            <h2>nada.</h2>
+                            <h2>seu gás em casa e sem pagar nada.</h2>
                         </div>
                     </div>
                 </div>
@@ -57,8 +56,8 @@ export function Main() {
                         <h1>Peça agora seu</h1>
                         <h1> <strong>GÁS DE COZINHA!</strong> </h1>
                         <div className={styles.icon}>
-                          <a href=''><img src='./img/play.png'></img></a>  
-                          <a href=''><img src='./img/store.png'></img></a>  
+                          <a href='https://play.google.com/store/apps/details?id=br.com.levegas' target="blank"><img src='./img/play.png'></img></a>  
+                          <a href='https://apps.apple.com/br/app/gasss/id1596971957' target="blank"><img src='./img/store.png'></img></a>  
                         </div>
                     </div>
                 </div>
