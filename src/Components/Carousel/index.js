@@ -20,6 +20,7 @@ export function Carousel() {
       </div>
 
       <div className={styles.carousel}>
+      <span> <img src="./img/seta.png"></img> </span>
         <Swiper
           slidesPerView={3}
           spaceBetween={30}
@@ -27,36 +28,56 @@ export function Carousel() {
           pagination={{
             clickable: true,
           }}
-          navigation={true}
           modules={[Pagination, Navigation]}
           className="mySwiper"
         >
           <SwiperSlide>
             <div className={styles.card}>
               <div className={styles.paragraph}>
+              <div className={styles.paragraphOpen}>
+                  <p>Encontre a</p>
+                  <p><span>Revenda mais próximo</span> ou</p>
+                  <p>com melhor preço</p>
+                </div>
                 <img src="./assets/celular01.png"></img>
-                <p>Encontre a</p>
-                <p><span>Revenda mais próximo</span> ou</p>
-                <p>com melhor preço</p>
+                <div className={styles.paragraphClose}>
+                  <p>Encontre a</p>
+                  <p><span>Revenda mais próximo</span> ou</p>
+                  <p>com melhor preço</p>
+                </div>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className={styles.card}>
               <div className={styles.paragraph}>
+              <div className={styles.paragraphOpen}> 
+                  <p>Encontre a</p>
+                  <p><span>Forma de pagamento.</span></p>
+                </div>
                 <img className={styles.img} src="./assets/celular02.png"></img>
-                <p>Encontre a</p>
-                <p><span>Forma de pagamento.</span></p>
+                <div className={styles.paragraphClose}> 
+                  <p>Encontre a</p>
+                  <p><span>Forma de pagamento.</span></p>
+                </div>
+
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className={styles.card}>
               <div className={styles.paragraph}>
+              <div className={styles.paragraphOpen}>
+                  <p>Pronto!</p>
+                  <p><span>Agora é só acompanhar</span></p>
+                  <p>a entrega do seu gás.</p>
+                </div>
                 <img src="./assets/celular03.png"></img>
-                <p>Pronto!</p>
-                <p><span>Agora é só acompanhar</span></p>
-                <p>a entrega do seu gás.</p>
+                <div className={styles.paragraphClose}>
+                  <p>Pronto!</p>
+                  <p><span>Agora é só acompanhar</span></p>
+                  <p>a entrega do seu gás.</p>
+                </div>
               </div>
             </div>
           </SwiperSlide>
@@ -64,33 +85,54 @@ export function Carousel() {
           <SwiperSlide>
             <div className={styles.card}>
               <div className={styles.paragraph}>
+              <div className={styles.paragraphOpen}>
+                  <p>Encontre a</p>
+                  <p><span>Revenda mais próximo</span> ou</p>
+                  <p>com melhor preço</p>
+                </div>
                 <img src="./assets/celular01.png"></img>
-                <p>Encontre a</p>
-                <p><span>Revenda mais próximo</span> ou</p>
-                <p>com melhor preço</p>
+                <div className={styles.paragraphClose}>
+                  <p>Encontre a</p>
+                  <p><span>Revenda mais próximo</span> ou</p>
+                  <p>com melhor preço</p>
+                </div>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className={styles.card}>
               <div className={styles.paragraph}>
+              <div className={styles.paragraphOpen}>
+                  <p>Encontre a</p>
+                  <p><span>Forma de pagamento.</span></p>
+                </div>
                 <img className={styles.img} src="./assets/celular02.png"></img>
-                <p>Encontre a</p>
-                <p><span>Forma de pagamento.</span></p>
+                <div className={styles.paragraphClose}>
+                  <p>Encontre a</p>
+                  <p><span>Forma de pagamento.</span></p>
+                </div>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className={styles.card}>
               <div className={styles.paragraph}>
+              <div className={styles.paragraphOpen}>
+                  <p>Pronto!</p>
+                  <p><span>Agora é só acompanhar</span></p>
+                  <p>a entrega do seu gás.</p>
+                </div>
                 <img src="./assets/celular03.png"></img>
-                <p>Pronto!</p>
-                <p><span>Agora é só acompanhar</span></p>
-                <p>a entrega do seu gás.</p>
+                <div className={styles.paragraphClose}>
+                  <p>Pronto!</p>
+                  <p><span>Agora é só acompanhar</span></p>
+                  <p>a entrega do seu gás.</p>
+                </div>
               </div>
             </div>
           </SwiperSlide>
         </Swiper>
+        <span> <img className={styles.seta} src="./img/seta.png"></img> </span>
       </div>
 
       <div className={styles.banner}>

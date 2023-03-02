@@ -133,6 +133,10 @@
         font-size: 1rem;
     }
 
+    .content .city {
+      margin-top: 1.5rem;
+    }
+
     .content .city h4 {
         line-height: 1.5rem;
         font-size: 0.8rem;
@@ -141,6 +145,8 @@
     .content h5 {
         font-size: 0.8rem;
     }
+
+    
 }
 
 @media(max-width: 470px) {

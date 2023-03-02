@@ -284,7 +284,8 @@
 
     .container .backgroundOpen {
         width: 100%;
-        background-color: var(--color-span);
+        background: url(../../../public/img/parede.png);
+        background-repeat: no-repeat;
         padding: 3rem 0rem;
         text-align: center;
         display: block;
@@ -328,7 +329,7 @@
     }
 
     .backgroundOpen .text p+p {
-        color: var(--color-p);
+        color: var(--color);
     }
 
     .backgroundOpen .text p strong {

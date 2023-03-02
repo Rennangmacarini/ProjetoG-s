@@ -11,11 +11,28 @@
     color: var(--color-span);
 }
 
+.globalCarousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .carousel {
     margin: auto;
     width: 1100px;
     margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel span img {
+    width: 50px;
+}
+
+.carousel span .seta {
+    transform: scaleX(-1);
 }
 
 .carousel img {
@@ -33,6 +50,10 @@
 .carousel .card .paragraph {
     text-align: center;
     font-size: 1.2rem;
+}
+
+.carousel .card .paragraphOpen {
+    display: none;
 }
 
 .carousel .card .paragraph span {
@@ -120,6 +141,10 @@
         width: 350px;
     }
 
+    .carousel span img {
+        width: 30px;
+    }
+
 }
 
 
@@ -147,19 +172,47 @@
     }
 
     .carousel {
-        width: 500px;
+        width: 535px;
     }
 
     .banner {
         margin: 3rem 0rem;
     }
+
+    .carousel span img {
+        width: 30px;
+        padding: 0.3rem;
+    }
 }
 
 @media(max-width: 550px) {
+
+    .text {
+        margin: 0;
+    }
+
     .text h1 {
         font-size: 1rem;
     }
 
+    .text h1 span {
+        font-size: 1.2rem;
+    }
+
+    .banner {
+        margin: 1rem 0rem;
+    }
+
+   .card .paragraphClose{
+    display: none;
+   }
+
+   .carousel .card .paragraphOpen {
+    height: 60px;
+    font-size: 0.6rem;
+    display: block;
+   }
+   
     .carousel {
         width: 450px;
     }
@@ -167,12 +220,13 @@
     .carousel img {
         width: 120px;
     }
+
 }
 
 @media(max-width: 470px) {
 
     .carousel {
-        width: 350px;
+        width: 400px;
     }
 
     .carousel img {
@@ -182,13 +236,18 @@
     .banner img {
         width: 300px;
     }
+
+    .carousel span img {
+        width: 25px;
+        padding: 0.3rem;
+    }
 }
 
 
-@media(max-width: 400px) {
+@media(max-width: 420px) {
 
     .carousel {
-        width: 320px;
+        width: 370px;
     }
 
     .carousel img {
