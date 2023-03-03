@@ -221,8 +221,10 @@
     }
 
     .container h2:first-child {
-        font-size: 0.9rem;
+        font-size: 0.83rem;
         margin-bottom: 0.5rem;
+        text-align: start;
+        margin-left: 0.5rem;
     }
 
     .container h2 {
@@ -248,11 +250,11 @@
     }
 
     .container h2:first-child {
-        font-size: 0.8rem;
+        font-size: 0.73rem;
     }
 
     .container h2 {
-        font-size: 0.7rem;
+        font-size: 0.68rem;
     }
 
     .global h1 {
@@ -298,9 +300,10 @@
         height: 180px;
     }
 
-    .container h2 {
-        font-size: 0.7rem;
+    .container h2:first-child {
+        font-size: 0.68rem;
     }
+
 
     .container h2 {
         font-size: 0.6rem;
@@ -337,11 +340,11 @@
     }
 
     .container h2:first-child {
-        font-size: 0.7rem;
+        font-size: 0.52rem;
     }
 
     .container h2 {
-        font-size: 0.53rem;
+        font-size: 0.5rem;
     }
 
 
