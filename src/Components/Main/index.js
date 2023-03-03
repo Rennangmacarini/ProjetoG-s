@@ -8,13 +8,13 @@ export function Main() {
 
                 <div className={styles.container}>
                     <div className={styles.card}>
-                        <img src="./assets/one.png"></img>
                         <div>
+                            <img src="./assets/one.png"></img>
                             <h2><span>Atendimento Personalizado</span></h2>
-                            <h2>preparada, pronta para te</h2>
-                            <h2>atender sempre que</h2>
-                            <h2>precisar.</h2>
                         </div>
+                        <h2>preparada, pronta para te</h2>
+                        <h2>atender sempre que</h2>
+                        <h2>precisar.</h2>
                     </div>
 
                     <div className={styles.card}>
@@ -56,8 +56,8 @@ export function Main() {
                         <h1>Peça agora seu</h1>
                         <h1> <strong>GÁS DE COZINHA!</strong> </h1>
                         <div className={styles.icon}>
-                          <a href='https://play.google.com/store/apps/details?id=br.com.levegas' target="blank"><img src='./img/play.png'></img></a>  
-                          <a href='https://apps.apple.com/br/app/gasss/id1596971957' target="blank"><img src='./img/store.png'></img></a>  
+                            <a href='https://play.google.com/store/apps/details?id=br.com.levegas' target="blank"><img src='./img/play.png'></img></a>
+                            <a href='https://apps.apple.com/br/app/gasss/id1596971957' target="blank"><img src='./img/store.png'></img></a>
                         </div>
                     </div>
                 </div>

@@ -37,7 +37,7 @@ export function Carousel() {
               <div className={styles.paragraphOpen}>
                   <p>Encontre a</p>
                   <p><span>Revenda mais próximo</span> ou</p>
-                  <p>com melhor preço</p>
+                  <p>com <span>melhor preço</span></p>
                 </div>
                 <img src="./assets/celular01.png"></img>
                 <div className={styles.paragraphClose}>
@@ -52,7 +52,7 @@ export function Carousel() {
             <div className={styles.card}>
               <div className={styles.paragraph}>
               <div className={styles.paragraphOpen}> 
-                  <p>Encontre a</p>
+                  <p>Escolha a</p>
                   <p><span>Forma de pagamento.</span></p>
                 </div>
                 <img className={styles.img} src="./assets/celular02.png"></img>
@@ -103,12 +103,12 @@ export function Carousel() {
             <div className={styles.card}>
               <div className={styles.paragraph}>
               <div className={styles.paragraphOpen}>
-                  <p>Encontre a</p>
+                  <p>Escolha a</p>
                   <p><span>Forma de pagamento.</span></p>
                 </div>
                 <img className={styles.img} src="./assets/celular02.png"></img>
                 <div className={styles.paragraphClose}>
-                  <p>Encontre a</p>
+                  <p>Escolha a</p>
                   <p><span>Forma de pagamento.</span></p>
                 </div>
               </div>
@@ -136,7 +136,8 @@ export function Carousel() {
       </div>
 
       <div className={styles.banner}>
-        <img src="./assets/pagamentos.png"></img>
+        <img className={styles.openImagem} src="./assets/pagamentos.png"></img>
+        <img className={styles.closeImagem} src="./img/cadeado.png"></img>
       </div>
     </>
   );

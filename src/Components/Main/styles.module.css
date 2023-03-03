@@ -215,6 +215,9 @@
     .container .card {
         width: 250px;
         height: 200px;
+        
+        border: 2px solid rgb(0, 0, 0, 0.3);
+        box-shadow: 1px 1px 1px 1px rgb(0, 0, 0, 0.1);
     }
 
     .container h2:first-child {

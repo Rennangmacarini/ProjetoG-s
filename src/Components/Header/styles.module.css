@@ -2,9 +2,13 @@
     width: 100%;
 }
 
+.teste {
+    width: 200px;
+}
 .container .backgroundOpen {
     display: none;
 }
+
 
 .content {
     position: absolute;
@@ -436,7 +440,7 @@
     }
 
     .information h2 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .faixa .banner {

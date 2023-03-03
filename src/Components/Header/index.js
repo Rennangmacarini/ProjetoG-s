@@ -42,8 +42,6 @@ export function Header() {
                 </div>
             </div>
 
-
-
             <div className={styles.faixa}>
                 <img src='./img/faixa.png'></img>
                 <div className={styles.banner}>

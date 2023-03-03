@@ -56,6 +56,10 @@
     display: none;
 }
 
+.banner .closeImagem {
+    display: none;
+}
+
 .carousel .card .paragraph span {
     color: var(--color-span);
 }
@@ -219,6 +223,16 @@
 
     .carousel img {
         width: 120px;
+        margin-bottom: 2rem;
+    }
+
+    .banner .openImagem {
+        display: none;
+    }
+
+    .banner .closeImagem {
+        display: block;
+        margin: 0 auto;
     }
 
 }
