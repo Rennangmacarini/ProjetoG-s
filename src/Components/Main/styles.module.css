@@ -239,6 +239,7 @@
     .container {
         grid-template-columns: 210px 210px;
         gap: 2rem;
+        margin-top: -2rem;
         padding: 0rem 0rem;
     }
 

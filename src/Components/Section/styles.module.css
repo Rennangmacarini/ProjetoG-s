@@ -102,7 +102,6 @@
 
     .content h1 span {
         font-size: 1rem;
-
     }
 }
 
@@ -113,11 +112,7 @@
     }
 
     .content h1 {
-        font-size: 1.2rem;
-    }
-
-    .content h1 span {
-        font-size: 0.8rem;
+        font-size: 1.1rem;
     }
 
     .content h2 {
@@ -150,15 +145,11 @@
 
 @media(max-width: 470px) {
     .content {
-        width: 310px;
+        width: 340px;
     }
 
     .content h1 {
         font-size: 1rem;
-    }
-
-    .content h1 span {
-        font-size: 0.8rem;
     }
 
     .content h2 {
