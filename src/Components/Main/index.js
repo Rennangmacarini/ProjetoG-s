@@ -8,13 +8,13 @@ export function Main() {
 
                 <div className={styles.container}>
                     <div className={styles.card}>
+                        <img src="./assets/one.png"></img>
                         <div>
-                            <img src="./assets/one.png"></img>
                             <h2><span>Atendimento Personalizado</span></h2>
+                            <h2>preparada, pronta para te</h2>
+                            <h2>atender sempre que</h2>
+                            <h2>precisar.</h2>
                         </div>
-                        <h2>preparada, pronta para te</h2>
-                        <h2>atender sempre que</h2>
-                        <h2>precisar.</h2>
                     </div>
 
                     <div className={styles.card}>
