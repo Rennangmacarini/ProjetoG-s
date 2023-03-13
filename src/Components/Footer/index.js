@@ -16,8 +16,8 @@ export function Footer() {
                 <div className={styles.linkIcons}>
                     <h1>CONTATO</h1>
                     <div className={styles.icons}>
-                        <a href='mailto:app@ivasko.com.br' target="blank"><img src='./img/message.png'></img> </a>
-                        <a href='mailto:app@ivasko.com.br' target="blank">app@ivasko.com.br</a>
+                        <a href='mailto:apps@ivasko.com.br' target="blank"><img src='./img/message.png'></img> </a>
+                        <a href='mailto:apps@ivasko.com.br' target="blank">apps@ivasko.com.br</a>
                     </div>
                     <div className={styles.icons}>
                         <a href='tel: 42991394057'><img src='./img/telefone.png'></img></a>
