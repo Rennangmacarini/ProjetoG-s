@@ -23,7 +23,7 @@ export function Section() {
                     <h4>São Mateus do Sul</h4>
                     <h4>Telêmaco-Borba</h4>
                 </div>
-                <h5>Para as demais regiôes, ainda não conseguimos entregar :(</h5>
+                <h5>Para as demais regiões, ainda não conseguimos entregar :(</h5>
                 <h5>mas não fique triste, já já estamos por aí!</h5>
             </div>
 
