@@ -28,7 +28,7 @@ export function Footer() {
                 <div className={styles.contentLink}>
                     <h1>SAIBA MAIS</h1>
                     <div className={styles.link}>
-                        <a href=''>SEJA UM PARCEIRO</a>
+                        <a href='https://api.whatsapp.com/send?phone=+5542991394057&text=“SEJA UM PARCEIRO"' target="blank">SEJA UM PARCEIRO</a>
                     </div>
                     <div className={styles.link}>
                         <a href=''>POLÍTICA DE PRIVACIDADE</a>
