@@ -11,7 +11,7 @@ export function Menu() {
         <>
             <div className={styles.global}>
                 <img src="./img/logoverde.png" />
-                <img onClick={() => setShow(!show)} className={styles.iconsmenu} src='img/menu.png'></img>
+                <img onClick={() => setShow(!show)} className={styles.iconsmenu} src={show ? "./img/x-menu.png" : "./img/menu.png"} />
                 <div className={styles.menu}>
                     <a href="/">Início</a>
                     <a href="/sobre">Sobre nós</a>

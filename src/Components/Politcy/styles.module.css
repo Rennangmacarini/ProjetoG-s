@@ -24,3 +24,29 @@
     line-height: 2rem;
   
 }
+
+@media(max-width: 1000px){
+    .cardText {
+        width: 600px;
+    }
+       
+}
+
+@media(max-width: 700px){
+    .cardText {
+        width: 500px;
+    }
+       
+}
+
+@media(max-width: 600px){
+    .cardText {
+        width: 400px;
+    }      
+}
+
+@media(max-width: 500px){
+    .cardText {
+        width: 350px;
+    }      
+}

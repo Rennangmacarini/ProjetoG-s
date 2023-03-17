@@ -1,6 +1,7 @@
 
 .banner img {
     width: 100%;
+    padding-top: 4.5rem;
     margin-bottom: 7rem;
 }
 
@@ -40,12 +41,6 @@
 }
 
 
-@media(max-width: 1200px){
-    .banner {
-        padding: 1rem 0rem;
-    }
-}
-
 @media(max-width: 1000px){
     .container {
         display: grid;
@@ -55,18 +50,7 @@
     }
 }
 
-@media(max-width: 850px){
-    .banner {
-        padding: 2rem 0rem;
-    }
-}
-
-
 @media(max-width: 650px){
-    .banner {
-        padding: 3rem 0rem;
-    }
-
     .container {
         width: 500px;
         margin-top: -3rem;
@@ -80,11 +64,7 @@
 
 
 @media(max-width: 550px){
-    .banner {
-        padding: 3rem 0rem;
-    }
-    
-    .card {
+   .card {
         width: 200px;
     }
 
