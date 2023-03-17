@@ -1,0 +1,151 @@
+
+.banner img {
+    width: 100%;
+    margin-bottom: 7rem;
+}
+
+.container {
+    margin: 0 auto;
+    width: 965px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.card {
+    padding: 1rem;
+    width: 300px;
+    height: 180px;
+    border: 1px solid rgb(219, 219, 219);
+    background-color: rgb(249, 248, 248);
+    border-radius: 8px;
+    box-shadow: 1px 1px black;
+}
+
+.container .card h1 {
+    margin: 0.5rem 0rem;
+    font-size: 1.2rem;
+    color: rgb(47, 47, 47);
+}
+
+.container .card p {
+    font-size: 0.9rem;
+    color: rgb(75, 75, 75);
+}
+
+.card img {
+    width: 50px;
+}
+
+
+@media(max-width: 1200px){
+    .banner {
+        padding: 1rem 0rem;
+    }
+}
+
+@media(max-width: 1000px){
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center; 
+        width: 600px; 
+    }
+}
+
+@media(max-width: 850px){
+    .banner {
+        padding: 2rem 0rem;
+    }
+}
+
+
+@media(max-width: 650px){
+    .banner {
+        padding: 3rem 0rem;
+    }
+
+    .container {
+        width: 500px;
+        margin-top: -3rem;
+    }
+
+    .card {
+        width: 250px;
+    }
+
+}
+
+
+@media(max-width: 550px){
+    .banner {
+        padding: 3rem 0rem;
+    }
+    
+    .card {
+        width: 200px;
+    }
+
+    .container {
+        width: 400px;
+    }
+
+    .container .card h1 {
+        font-size: 1rem;
+    }
+
+    .container .card p {
+        font-size: 0.8rem;
+    }
+
+    .card img {
+        width: 40px;
+    }
+}
+
+
+@media(max-width: 470px){
+    .card {
+        width: 180px;
+    }
+
+    .container {
+        width: 350px;
+    }
+
+    .container .card h1 {
+        font-size: 0.9rem;
+    }
+
+    .container .card p {
+        font-size: 0.7rem;
+    }
+
+    .card {
+        height: 150px;
+    }
+
+    .card img {
+        width: 35px;
+    }
+}
+
+@media(max-width: 470px){
+    .card {
+        width: 160px;
+    }
+
+    .container {
+        width: 300px;
+    }
+
+    .container .card h1 {
+        font-size: 0.8rem;
+    }
+
+    .container .card p {
+        font-size: 0.6rem;
+    }
+}

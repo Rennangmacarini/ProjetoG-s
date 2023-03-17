@@ -1,0 +1,26 @@
+.global {
+    text-align: center;
+    margin: 3rem 0rem;
+}
+
+.cardText {
+    margin: 0 auto;
+    width: 900px;
+    padding: 1rem;
+    background-color: rgb(249, 249, 249);
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px #000000;
+    margin-bottom: 2rem;
+}
+
+.global h1 {
+   margin: 2rem 0rem;
+   font-size: 1.3rem;
+}
+
+.cardText p {
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 2rem;
+  
+}

@@ -1,0 +1,78 @@
+.global {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+
+    background-color: var(--bg-banner);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.467);
+    padding: 0.4rem 0rem;
+}
+
+.global img {
+   width: 120px;
+}
+
+.global img:nth-child(2){
+    width: 60px;
+    display: none;
+}
+
+.global .menu {
+    display: flex;
+    gap: 2rem;
+}
+
+.global .menu a {
+    text-decoration: none;
+    color: var(--color);
+}
+
+.global .menu a:hover {
+    color: #e3e9e2;
+}
+
+.globalMenu {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    height: 100vh;
+    padding: 10rem 0rem;
+    background-color: #965df3;
+}
+
+.iconsmenu {
+    cursor: pointer;
+}
+
+.linksmenu {
+   display: flex;
+   text-align: center;
+   flex-direction: column;
+   justify-content: center;
+   gap: 3rem;
+}
+
+.linksmenu a {
+    text-decoration: none;
+    color: white;
+}
+
+.hide {
+    display: none;
+}
+
+@media(max-width: 600px){
+    .global .menu{
+        display: none;
+    }
+
+    .global img:nth-child(2){
+        display: block;
+    }
+
+}

@@ -31,7 +31,7 @@ export function Footer() {
                         <a href='https://api.whatsapp.com/send?phone=+5542991394057&text=“SEJA UM PARCEIRO"' target="blank">SEJA UM PARCEIRO</a>
                     </div>
                     <div className={styles.link}>
-                        <a href=''>POLÍTICA DE PRIVACIDADE</a>
+                        <a href='/politcy'>POLÍTICA DE PRIVACIDADE</a>
                     </div>
                 </div>
             </div>
