@@ -1,6 +1,7 @@
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import React, { useRef, useState } from "react";
 
 // Import Swiper styles
 import "swiper/css";
@@ -9,6 +10,7 @@ import "swiper/css/navigation";
 
 import styles from './styles.module.css'
 
+import { Autoplay } from "swiper";
 // import required modules
 import { Pagination, Navigation } from "swiper";
 
@@ -20,15 +22,18 @@ export function Carousel() {
       </div>
 
       <div className={styles.carousel}>
-      <span> <img src="./img/seta.png"></img> </span>
         <Swiper
           slidesPerView={3}
           spaceBetween={30}
           loop={true}
+          autoplay={{
+            delay: 3500,
+            disableOnInteraction: false,
+        }}
           pagination={{
             clickable: true,
           }}
-          modules={[Pagination, Navigation]}
+          modules={[Autoplay, Pagination, Navigation]}
           className="mySwiper"
         >
           <SwiperSlide>
@@ -132,7 +137,6 @@ export function Carousel() {
             </div>
           </SwiperSlide>
         </Swiper>
-        <span> <img className={styles.seta} src="./img/seta.png"></img> </span>
       </div>
 
       <div className={styles.banner}>

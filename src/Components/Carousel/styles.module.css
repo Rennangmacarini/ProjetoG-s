@@ -17,7 +17,6 @@
     align-items: center;
 }
 
-
 .carousel {
     margin: auto;
     width: 1100px;
@@ -25,6 +24,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 
 .carousel span img {

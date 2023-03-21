@@ -1,5 +1,13 @@
 import styles from './styles.module.css'
 
+import React, { useRef, useState } from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import { Autoplay } from "swiper";
+
 export function Header() {
     return (
         <>
@@ -44,12 +52,72 @@ export function Header() {
 
             <div className={styles.faixa}>
                 <img src='./img/faixa.png'></img>
-                <div className={styles.banner}>
-                    <img src='./img/ultragas.png'></img>
-                    <img src='/img/supergas.png'></img>
-                    <img src='./img/nacional.png'></img>
-                </div>
             </div>
+
+            <Swiper 
+                spaceBetween={30}
+                slidesPerView={3}
+                centeredSlides={true}
+                autoplay={{
+                    delay: 3500,
+                    disableOnInteraction: false,
+                }}
+                pagination={{
+                    clickable: true,
+                }}
+                navigation={false}
+                modules={[Autoplay]}
+                className={styles.mySwiper}
+            >
+                    <SwiperSlide className={styles.cardSwiper}>
+                        <img className={styles.myimg} src='./img/ultragas.png' />
+                    </SwiperSlide>
+
+                    <SwiperSlide className={styles.cardSwiper}>
+                        <img src='/img/supergas.png' />
+                    </SwiperSlide>
+
+                    <SwiperSlide className={styles.cardSwiper}>
+                        <img src='./img/nacional.png' />
+                    </SwiperSlide>
+
+                    <SwiperSlide className={styles.cardSwiper}>
+                        <img className={styles.myimg} src='./img/ultragas.png' />
+                    </SwiperSlide>
+
+                    <SwiperSlide className={styles.cardSwiper}>
+                        <img src='/img/supergas.png' />
+                    </SwiperSlide>
+
+                    <SwiperSlide className={styles.cardSwiper}>
+                        <img src='./img/nacional.png' />
+                    </SwiperSlide>
+                    <SwiperSlide className={styles.cardSwiper}>
+                        <img className={styles.myimg} src='./img/ultragas.png' />
+                    </SwiperSlide>
+
+                    <SwiperSlide className={styles.cardSwiper}>
+                        <img src='/img/supergas.png' />
+                    </SwiperSlide>
+
+                    <SwiperSlide className={styles.cardSwiper}>
+                        <img src='./img/nacional.png' />
+                    </SwiperSlide>
+
+                    <SwiperSlide className={styles.cardSwiper}>
+                        <img className={styles.myimg} src='./img/ultragas.png' />
+                    </SwiperSlide>
+
+                    <SwiperSlide className={styles.cardSwiper}>
+                        <img src='/img/supergas.png' />
+                    </SwiperSlide>
+
+                    <SwiperSlide className={styles.cardSwiper}>
+                        <img src='./img/nacional.png' />
+                    </SwiperSlide>
+            </Swiper>
+
+
 
             <div className={styles.information}>
                 <h2><span>Compre</span> pelo nosso app</h2>

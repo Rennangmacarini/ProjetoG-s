@@ -3,14 +3,23 @@
     margin-top: 4rem;
 }
 
-.teste {
-    width: 200px;
+.mySwiper{
+    width: 950px;
+    margin-top: -6rem;
 }
+
+.cardSwiper .myimg{
+ margin-top: -0.5rem;
+}
+
+.cardSwiper img {
+    width: 300px;
+}
+
 .container .backgroundOpen {
     display: none;
     
 }
-
 
 .content {
     position: absolute;
@@ -189,6 +198,14 @@
         width: 150px;
     }
 
+    .mySwiper{
+        width: 800px;
+        margin-top: -4.8rem;
+    }
+    .cardSwiper img {
+        width: 250px;
+    }
+
 }
 
 
@@ -227,6 +244,14 @@
 
     .information .imagem img {
         width: 120px;
+    }
+
+    .mySwiper{
+        width: 700px;
+        margin-top: -4rem;
+    }
+    .cardSwiper img {
+        width: 200px;
     }
 
 }
@@ -275,6 +300,11 @@
 
     .information .imagem img {
         width: 100px;
+    }
+
+    .mySwiper{
+        width: 700px;
+        margin-top: -3rem;
     }
 
 }
@@ -371,6 +401,10 @@
     .information .imagem img {
         width: 150px;
         border-radius: 8px;
+    }
+
+    .mySwiper, .faixa{
+       display: none;
     }
 
 }

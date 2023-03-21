@@ -1,3 +1,21 @@
+.animation {
+    animation: topdown 800ms 400ms 
+}
+
+@keyframes topdown {
+    0% {
+        margin-top: -40px;
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 .global {
     position: fixed;
     width: 100%;
