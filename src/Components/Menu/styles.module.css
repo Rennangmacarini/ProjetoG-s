@@ -5,10 +5,10 @@
 @keyframes topdown {
     0% {
         margin-top: -40px;
-        opacity: 0.5;
+        opacity: 0;
     }
     50% {
-        opacity: 0.5;
+        opacity: 1;
     }
 
     100% {
