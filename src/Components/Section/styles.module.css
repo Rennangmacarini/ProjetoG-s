@@ -54,6 +54,11 @@
     font-size: 1.3rem;
 }
 
+.content h5 a {
+    text-decoration: none;
+    color: var(--color-span);
+}
+
 @media(max-width: 1200px) {
     .content {
         width: 580px;

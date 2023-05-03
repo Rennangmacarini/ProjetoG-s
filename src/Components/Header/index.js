@@ -121,7 +121,7 @@ export function Header() {
 
             <div className={styles.information}>
                 <h2><span>Compre</span> pelo nosso app</h2>
-                <p>No aplicativo você encontra as melhores ofertas.<span> É rápido, facil e seguro.</span> </p>
+                <p>No aplicativo você encontra as melhores ofertas.<span> É rápido, fácil e seguro.</span> </p>
                 <div className={styles.imagem}>
                     <a href='https://play.google.com/store/apps/details?id=br.com.levegas' target="blank"><img src='./img/playRoxo.png' /></a>
                     <a href='https://apps.apple.com/br/app/gasss/id1596971957' target="blank"><img src='./img/storeRoxo.png' /></a>

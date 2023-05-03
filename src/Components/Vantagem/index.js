@@ -29,7 +29,7 @@ export function Vantagem() {
                         <img src="assets/taxa.png" />
                         <h1>PREÇO FINAL</h1>
                         <p>Sem taxas adicionais</p>
-                        <p>frete</p>
+                        <p>frete.</p>
                     </div>
 
                     <div className={styles.card}>

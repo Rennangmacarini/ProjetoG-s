@@ -11,7 +11,7 @@ export function Main() {
                         <img src="./assets/one.png"></img>
                         <div>
                             <h2><span>Atendimento Personalizado</span></h2>
-                            <h2>preparada, pronta para te</h2>
+                            <h2>Preparado e pronta para te</h2>
                             <h2>atender sempre que</h2>
                             <h2>precisar.</h2>
                         </div>
@@ -33,8 +33,7 @@ export function Main() {
                         <div>
                             <h2><span>Encontre os melhores preços</span></h2>
                             <h2>No app você compara e</h2>
-                            <h2>escolhe os melhores preços ai</h2>
-                            <h2>da sua região.</h2>
+                            <h2>escolhe os melhores preços!</h2>
                         </div>
                     </div>
 
@@ -43,7 +42,7 @@ export function Main() {
                         <div>
                             <h2><span>Entrega Grátis</span></h2>
                             <h2>Com o app Gass você recebe</h2>
-                            <h2>seu gás em casa e sem pagar nada.</h2>
+                            <h2>seu gás em casa e sem pagar pela entrega.</h2>
                         </div>
                     </div>
                 </div>
