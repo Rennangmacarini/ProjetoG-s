@@ -4,7 +4,7 @@ export function Section() {
     return (
         <>
             <div className={styles.content}>
-                <h1>Saiba aonde o app <span>Gass está disponivel</span></h1>
+                <h1>Saiba aonde o app <span>Gasss está disponivel</span></h1>
 
                 <div className={styles.h3}>
                     <h3>Sul</h3>
