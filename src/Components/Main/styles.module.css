@@ -7,7 +7,7 @@
 .carousel {
     width: 950px;
     margin: 0 auto;
-    margin-bottom: 5rem;
+    
 }
 
 .global h1 span {
@@ -28,6 +28,7 @@
     margin: 3rem 0rem;
     border-radius: 18px;
     box-shadow: 0px 6px 12px rgba(0,0,0,0.16);
+    
 }
 
 .card img {
@@ -165,9 +166,7 @@
     .global img {
         width: 30px;
     }
-
-
-
+    
     .banner .imagens {
         width: 150px;
         margin-top: -6rem;
@@ -192,6 +191,7 @@
 
     .card {
         margin: 0 auto;
+        margin-bottom: 3rem;
     }
 }
 
