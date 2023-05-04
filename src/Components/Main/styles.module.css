@@ -166,10 +166,7 @@
         width: 30px;
     }
 
-    .card h2 {
-        font-size: 0.7rem;
-        line-height: 1.2rem;
-    }
+
 
     .banner .imagens {
         width: 150px;
@@ -213,8 +210,8 @@
     }
 
     .card h2 {
-        font-size: 1.2rem;
-        line-height: 2.3rem;
+        font-size: 1rem;
+        line-height: 2rem;
     }
 
     .card {
