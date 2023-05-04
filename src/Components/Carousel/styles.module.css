@@ -27,8 +27,8 @@
    
 }
 
-.carousel span img {
-    width: 50px;
+.carousel span {
+    width: 0px;
 }
 
 .carousel span .seta {
@@ -36,7 +36,7 @@
 }
 
 .carousel img {
-    width: 300px;
+    width: 1000px;
 }
 
 .carousel .card {
@@ -87,7 +87,7 @@
     }
 
     .carousel img {
-        width: 230px;
+        width: 800px;
     }
 
     .carousel .card .paragraph {
@@ -109,9 +109,6 @@
         width: 800px;
     }
 
-    .carousel img {
-        width: 200px;
-    }
 
     .carousel .card .paragraph {
         font-size: 0.8rem;
@@ -134,7 +131,7 @@
     }
 
     .carousel img {
-        width: 150px;
+        width: 700px;
     }
 
     .carousel .card .paragraph {
@@ -184,10 +181,6 @@
         padding: 0.5rem 0rem;
     }
 
-    .carousel span img {
-        width: 30px;
-        padding: 0.3rem;
-    }
 }
 
 @media(max-width: 550px) {
@@ -220,7 +213,7 @@
     }
 
     .carousel img {
-        width: 120px;
+        width: 500px;
         margin-bottom: 2rem;
     }
 
@@ -243,7 +236,7 @@
     }
 
     .carousel img {
-        width: 100px;
+        width: 400px;
     }
 
     .banner img {
@@ -251,7 +244,6 @@
     }
 
     .carousel span img {
-        width: 25px;
         padding: 0.3rem;
     }
 
@@ -268,7 +260,7 @@
     }
 
     .carousel img {
-        width: 90px;
+        width: 350px;
     }
 
 }

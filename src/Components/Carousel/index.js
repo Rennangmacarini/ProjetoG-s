@@ -44,7 +44,7 @@ export function Carousel() {
                   <p><span>Revenda mais próximo</span> ou</p>
                   <p>com <span>melhor preço</span></p>
                 </div>
-                <img src="./assets/celular01.png"></img>
+                <img src="./img/Primeira.png"></img>
                 <div className={styles.paragraphClose}>
                   <p>Encontre a</p>
                   <p><span>Revenda mais próximo</span> ou</p>
@@ -60,7 +60,7 @@ export function Carousel() {
                   <p>Escolha a</p>
                   <p><span>Forma de pagamento.</span></p>
                 </div>
-                <img className={styles.img} src="./assets/celular02.png"></img>
+                <img className={styles.img} src="./img/Segunda.png"></img>
                 <div className={styles.paragraphClose}> 
                   <p>Encontre a</p>
                   <p><span>Forma de pagamento.</span></p>
@@ -77,7 +77,7 @@ export function Carousel() {
                   <p><span>Agora é só acompanhar</span></p>
                   <p>a entrega do seu gás.</p>
                 </div>
-                <img src="./assets/celular03.png"></img>
+                <img src="./img/Terceira.png"></img>
                 <div className={styles.paragraphClose}>
                   <p>Pronto!</p>
                   <p><span>Agora é só acompanhar</span></p>
@@ -95,7 +95,7 @@ export function Carousel() {
                   <p><span>Revenda mais próximo</span> ou</p>
                   <p>com melhor preço</p>
                 </div>
-                <img src="./assets/celular01.png"></img>
+                <img src="./img/Primeira.png"></img>
                 <div className={styles.paragraphClose}>
                   <p>Encontre a</p>
                   <p><span>Revenda mais próximo</span> ou</p>
@@ -111,7 +111,7 @@ export function Carousel() {
                   <p>Escolha a</p>
                   <p><span>Forma de pagamento.</span></p>
                 </div>
-                <img className={styles.img} src="./assets/celular02.png"></img>
+                <img className={styles.img} src="./img/Segunda.png"></img>
                 <div className={styles.paragraphClose}>
                   <p>Escolha a</p>
                   <p><span>Forma de pagamento.</span></p>
@@ -127,7 +127,7 @@ export function Carousel() {
                   <p><span>Agora é só acompanhar</span></p>
                   <p>a entrega do seu gás.</p>
                 </div>
-                <img src="./assets/celular03.png"></img>
+                <img src="./img/Terceira.png"></img>
                 <div className={styles.paragraphClose}>
                   <p>Pronto!</p>
                   <p><span>Agora é só acompanhar</span></p>
