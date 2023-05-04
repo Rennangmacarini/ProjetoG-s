@@ -25,9 +25,9 @@ export function Header() {
                         </div>
                     </div>
                     <div className={styles.text}>
-                        <p><strong>Não perca mais tempo ligando para as revendas!</strong></p>
+                        <p>Não perca mais tempo ligando para as revendas!</p>
                         <p>Peça seu botijão de gás através do app Gasss,</p>
-                        <p>Compare os <strong>melhores preços</strong> da sua região</p>
+                        <p>Compare os melhores preços da sua região</p>
                     </div>
                     <div className={styles.img}>
                         <a href='https://play.google.com/store/apps/details?id=br.com.levegas' target="blank"><img src='./img/play.png' /></a>

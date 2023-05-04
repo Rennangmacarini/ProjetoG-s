@@ -46,13 +46,6 @@
     margin: 2rem 0rem;
 }
 
-.content .text p+p {
-    color: var(--color-p);
-}
-
-.content .text p strong {
-    color: var(--color);
-}
 
 .content .img {
     display: flex;
