@@ -47,6 +47,10 @@
     margin: 2rem 0rem;
 }
 
+.text p {
+    color: white;
+}
+
 
 .content .img {
     display: flex;
