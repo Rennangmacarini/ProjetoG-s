@@ -29,7 +29,7 @@ export function Carousel() {
           breakpoints= {{
            0: {slidesPerView : 1},
            500: {slidesPerView : 1},
-           600: {slidesPerView : 3}
+           600: {slidesPerView : 3},
           }}
           
           pagination={{

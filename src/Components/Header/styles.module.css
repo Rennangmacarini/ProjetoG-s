@@ -88,13 +88,12 @@
 }
 
 .information {
+    text-align: center;
     margin-top: 3rem;
-    margin-left: 1.5rem;
 }
 
 .information h2 {
     font-size: 4rem;
-    margin-left: 2.5rem;
 }
 
 .information h2 span {
@@ -103,13 +102,13 @@
 
 .information p {
     font-size: 1.5rem;
-    margin-left: 2.5rem;
 }
 
 
 .information .imagem {
     display: flex;
     gap: 1.5rem;
+    justify-content: center;
     margin: 2rem
 }
 
