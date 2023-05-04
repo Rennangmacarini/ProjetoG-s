@@ -12,11 +12,6 @@
     color: var(--color-span);
 }
 
-.globalCarousel {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .carousel {
     margin: auto;

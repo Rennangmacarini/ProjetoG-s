@@ -26,12 +26,16 @@ export function Carousel() {
           slidesPerView={3}
           spaceBetween={30}
           loop={true}
-          breakpoints= {{
-           0: {slidesPerView : 1},
-           500: {slidesPerView : 1},
-           600: {slidesPerView : 3},
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
           }}
-          
+          breakpoints={{
+            0: { slidesPerView: 1 },
+            500: { slidesPerView: 1 },
+            600: { slidesPerView: 3 },
+          }}
+
           pagination={{
             clickable: true,
           }}
@@ -41,7 +45,7 @@ export function Carousel() {
           <SwiperSlide>
             <div className={styles.card}>
               <div className={styles.paragraph}>
-              <div className={styles.paragraphOpen}>
+                <div className={styles.paragraphOpen}>
                   <p>Encontre a</p>
                   <p><span>Revenda mais próximo</span> ou</p>
                   <p>com <span>melhor preço</span></p>
@@ -58,12 +62,12 @@ export function Carousel() {
           <SwiperSlide>
             <div className={styles.card}>
               <div className={styles.paragraph}>
-              <div className={styles.paragraphOpen}> 
+                <div className={styles.paragraphOpen}>
                   <p>Escolha a</p>
                   <p><span>Forma de pagamento.</span></p>
                 </div>
                 <img className={styles.img} src="./img/Segunda.png"></img>
-                <div className={styles.paragraphClose}> 
+                <div className={styles.paragraphClose}>
                   <p>Encontre a</p>
                   <p><span>Forma de pagamento.</span></p>
                 </div>
@@ -74,7 +78,7 @@ export function Carousel() {
           <SwiperSlide>
             <div className={styles.card}>
               <div className={styles.paragraph}>
-              <div className={styles.paragraphOpen}>
+                <div className={styles.paragraphOpen}>
                   <p>Pronto!</p>
                   <p><span>Agora é só acompanhar</span></p>
                   <p>a entrega do seu gás.</p>
@@ -92,7 +96,7 @@ export function Carousel() {
           <SwiperSlide>
             <div className={styles.card}>
               <div className={styles.paragraph}>
-              <div className={styles.paragraphOpen}>
+                <div className={styles.paragraphOpen}>
                   <p>Encontre a</p>
                   <p><span>Revenda mais próximo</span> ou</p>
                   <p>com melhor preço</p>
@@ -109,7 +113,7 @@ export function Carousel() {
           <SwiperSlide>
             <div className={styles.card}>
               <div className={styles.paragraph}>
-              <div className={styles.paragraphOpen}>
+                <div className={styles.paragraphOpen}>
                   <p>Escolha a</p>
                   <p><span>Forma de pagamento.</span></p>
                 </div>
@@ -124,7 +128,7 @@ export function Carousel() {
           <SwiperSlide>
             <div className={styles.card}>
               <div className={styles.paragraph}>
-              <div className={styles.paragraphOpen}>
+                <div className={styles.paragraphOpen}>
                   <p>Pronto!</p>
                   <p><span>Agora é só acompanhar</span></p>
                   <p>a entrega do seu gás.</p>
