@@ -206,6 +206,7 @@
     height: 68px;
     font-size: 0.6rem;
     display: block;
+    font-size: 1.2rem;
    }
    
     .carousel {
@@ -213,8 +214,8 @@
     }
 
     .carousel img {
-        width: 500px;
-        margin-bottom: 2rem;
+        margin-top: -5rem;
+        width: 1200px;
     }
 
     .banner .openImagem {
@@ -236,7 +237,8 @@
     }
 
     .carousel img {
-        width: 400px;
+        width: 900px;
+        margin-top: -3rem;
     }
 
     .banner img {
@@ -260,7 +262,7 @@
     }
 
     .carousel img {
-        width: 350px;
+        width: 800px;
     }
 
 }

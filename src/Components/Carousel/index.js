@@ -26,10 +26,12 @@ export function Carousel() {
           slidesPerView={3}
           spaceBetween={30}
           loop={true}
-          autoplay={{
-            delay: 3500,
-            disableOnInteraction: false,
-        }}
+          breakpoints= {{
+           0: {slidesPerView : 1},
+           500: {slidesPerView : 1},
+           600: {slidesPerView : 3}
+          }}
+          
           pagination={{
             clickable: true,
           }}
