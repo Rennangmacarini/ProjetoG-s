@@ -3,6 +3,10 @@
     width: 700px;
 }
 
+.content h1 {
+    text-align: center;
+}
+
 .content h1 span {
     font-size: 2.2rem;
     color: var(--color-span);

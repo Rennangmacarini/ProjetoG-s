@@ -117,8 +117,6 @@ export function Header() {
                     </SwiperSlide>
             </Swiper>
 
-
-
             <div className={styles.information}>
                 <h2><span>Compre</span> pelo nosso app</h2>
                 <p>No aplicativo você encontra as melhores ofertas.<span> É rápido, fácil e seguro.</span> </p>

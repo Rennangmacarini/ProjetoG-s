@@ -19,8 +19,6 @@ export function Main() {
                 <h1><span>Vantagens</span> de pedir seu gás pelo app</h1>
             </div>
 
-
-
             <div className={styles.carousel}>
                 <Swiper
                     slidesPerView={3}
